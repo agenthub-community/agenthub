@@ -1,0 +1,19 @@
+{
+  "id": "example-skill",
+  "name": "Example Skill (template)",
+  "kind": "skill",
+  "author": "openagenthub",
+  "description": "A template entry showing the git-clone install shape for a skill. Copy this file and point repo at a real skill repository.",
+  "readme": "This is a placeholder demonstrating how a `skill` item is described. agentLauncher clones `repo` into the instance's `skills/` directory. Replace the repo URL to publish a real skill.",
+  "icon": "sparkles",
+  "tags": ["skill", "template"],
+  "versions": [
+    {
+      "version": "latest",
+      "install": {
+        "method": "git-clone",
+        "repo": "https://github.com/lildengzi/openagenthub"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Build output — regenerated from registry/ by `node scripts/build.mjs`.
+/dist/
+
+# Node
+node_modules/
+
+# Noise
+*.log
+.DS_Store

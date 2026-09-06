@@ -1,0 +1,9 @@
+{
+  "id": "openagenthub-code-reviewer",
+  "name": "Code Reviewer",
+  "author": "openagenthub",
+  "description": "A Claude Code agent tuned for thorough, security-aware code review. Ships a review rubric (AGENTS.md), a filesystem MCP server, and a review skill. Bring your own ANTHROPIC key on import.",
+  "tags": ["claude", "code-review", "security"],
+  "icon": "shield-check",
+  "homepage": "https://lildengzi.github.io/openagenthub"
+}

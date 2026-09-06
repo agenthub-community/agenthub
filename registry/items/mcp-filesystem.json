@@ -1,0 +1,28 @@
+{
+  "id": "mcp-filesystem",
+  "name": "Filesystem MCP Server",
+  "kind": "mcp",
+  "author": "modelcontextprotocol",
+  "description": "Reference MCP server exposing sandboxed local filesystem access (read, write, list directories) to an agent.",
+  "readme": "The official reference filesystem server. Grants an agent scoped read/write access to a directory you name in `args`. Point the last argument at the folder you want to expose.",
+  "icon": "folder",
+  "homepage": "https://github.com/modelcontextprotocol/servers",
+  "repo": "https://github.com/modelcontextprotocol/servers",
+  "tags": ["mcp", "filesystem", "official"],
+  "license": "MIT",
+  "versions": [
+    {
+      "version": "latest",
+      "install": {
+        "method": "mcp-config",
+        "mcp": {
+          "name": "filesystem",
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
+          "env": {},
+          "disabled": false
+        }
+      }
+    }
+  ]
+}

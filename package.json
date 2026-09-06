@@ -1,0 +1,17 @@
+{
+  "name": "openagenthub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A distribution hub for AI agent bundles — feeds the agentLauncher ecosystem.",
+  "homepage": "https://lildengzi.github.io/openagenthub",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

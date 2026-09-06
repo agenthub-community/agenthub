@@ -1,0 +1,28 @@
+{
+  "id": "mcp-memory",
+  "name": "Memory MCP Server",
+  "kind": "mcp",
+  "author": "modelcontextprotocol",
+  "description": "Reference MCP server providing a persistent knowledge-graph memory the agent can read and update across sessions.",
+  "readme": "The official reference memory server. Backs an agent with a simple persistent knowledge graph so facts survive across turns and restarts. No arguments required.",
+  "icon": "brain",
+  "homepage": "https://github.com/modelcontextprotocol/servers",
+  "repo": "https://github.com/modelcontextprotocol/servers",
+  "tags": ["mcp", "memory", "official"],
+  "license": "MIT",
+  "versions": [
+    {
+      "version": "latest",
+      "install": {
+        "method": "mcp-config",
+        "mcp": {
+          "name": "memory",
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-memory"],
+          "env": {},
+          "disabled": false
+        }
+      }
+    }
+  ]
+}

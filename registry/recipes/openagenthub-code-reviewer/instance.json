@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "openagenthub-code-reviewer",
+  "name": "Code Reviewer",
+  "icon": "shield-check",
+  "group": "OpenAgentHub",
+  "description": "A Claude Code agent tuned for thorough, security-aware code review.",
+  "profile": "headless",
+  "provider": "",
+  "model": "",
+  "api_key_ref": "",
+  "default_task": "Review the staged changes and report issues grouped by severity.",
+  "runtime": {
+    "engine": "claude",
+    "env_policy": "autodetect",
+    "mode": "interactive",
+    "custom_bin": ""
+  },
+  "created_at": "2026-09-05T00:00:00Z"
+}
