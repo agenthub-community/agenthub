@@ -44,13 +44,13 @@ function route() {
     view.append(it ? itemDetail(it) : notFound());
     setActiveTab("items");
   } else if (section === "items") {
-    view.append(listView("item", "市场条目 Items", "插件 / 技能 / MCP——订阅为 agentLauncher 数据源。", state.items, sourceBanner()));
+    view.append(listView("item", "市场条目 Items", "热门 MCP / 技能 — 订阅后在 agentLauncher 内一键安装。试试筛选 hot。", state.items, sourceBanner()));
     setActiveTab("items");
   } else if (section === "about") {
     view.append(about());
     setActiveTab("about");
   } else {
-    view.append(listView("recipe", "整合包 Recipes", "打包好的 agent 实例,一键导入 agentLauncher。", state.recipes));
+    view.append(listView("recipe", "热门整合包 Recipes", "🔥 热门在前 — 打包好的 agent 实例，一键导入 agentLauncher。", state.recipes));
     setActiveTab("recipes");
   }
 }

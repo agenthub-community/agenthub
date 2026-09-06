@@ -1,0 +1,28 @@
+{
+  "id": "mcp-github",
+  "name": "GitHub MCP Server",
+  "kind": "mcp",
+  "author": "modelcontextprotocol",
+  "description": "Official GitHub MCP — repos, PRs, issues, actions, code search via GitHub API.",
+  "readme": "最热门的 MCP 之一。让 agent 直接读写 GitHub：查 PR、提 issue、搜代码、触发 workflow。需 GITHUB_TOKEN。",
+  "icon": "github",
+  "homepage": "https://github.com/modelcontextprotocol/servers",
+  "repo": "https://github.com/modelcontextprotocol/servers",
+  "tags": ["mcp", "github", "hot", "official"],
+  "license": "MIT",
+  "versions": [
+    {
+      "version": "latest",
+      "install": {
+        "method": "mcp-config",
+        "mcp": {
+          "name": "github",
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-github"],
+          "env": { "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}" },
+          "disabled": false
+        }
+      }
+    }
+  ]
+}

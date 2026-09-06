@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "pr-assistant",
+  "name": "PR Assistant",
+  "icon": "git-pull-request",
+  "group": "AgentHub Hot",
+  "description": "PR 助手 — 审 PR + 总结",
+  "profile": "headless",
+  "provider": "",
+  "model": "",
+  "api_key_ref": "",
+  "default_task": "Review the PR diff, summarize changes and produce a checklist.",
+  "runtime": { "engine": "codex", "env_policy": "autodetect", "mode": "interactive", "custom_bin": "" },
+  "created_at": "2026-09-06T00:00:00Z"
+}

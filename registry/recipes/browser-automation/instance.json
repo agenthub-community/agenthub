@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "browser-automation",
+  "name": "Browser Automation",
+  "icon": "globe",
+  "group": "AgentHub Hot",
+  "description": "浏览器自动化 — Puppeteer",
+  "profile": "headless",
+  "provider": "",
+  "model": "",
+  "api_key_ref": "",
+  "default_task": "Automate browser tasks: navigate, screenshot, fill forms and assert results.",
+  "runtime": { "engine": "opencode", "env_policy": "autodetect", "mode": "interactive", "custom_bin": "" },
+  "created_at": "2026-09-06T00:00:00Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "skill-pr-summary",
+  "name": "PR Summary Skill",
+  "kind": "skill",
+  "author": "agenthub-community",
+  "description": "Summarize diffs into PR title/body, risk notes and reviewer checklist — conventional commits.",
+  "readme": "PR 热门技能。把 diff 提炼为标题、正文、风险与 checklist，遵循 conventional commits。",
+  "icon": "git-pull-request",
+  "tags": ["skill", "pr", "hot"],
+  "versions": [
+    {
+      "version": "latest",
+      "install": {
+        "method": "git-clone",
+        "repo": "https://github.com/agenthub-community/agenthub",
+        "path": "skills/pr-summary"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "doc-generator",
+  "name": "Doc Generator",
+  "icon": "book-open",
+  "group": "AgentHub Hot",
+  "description": "文档生成器 — 代码到文档",
+  "profile": "headless",
+  "provider": "",
+  "model": "",
+  "api_key_ref": "",
+  "default_task": "Generate README, API docs and CHANGELOG from the current codebase.",
+  "runtime": { "engine": "claude", "env_policy": "autodetect", "mode": "interactive", "custom_bin": "" },
+  "created_at": "2026-09-06T00:00:00Z"
+}

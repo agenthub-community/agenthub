@@ -1,0 +1,20 @@
+{
+  "id": "skill-test-gen",
+  "name": "Test Generator Skill",
+  "kind": "skill",
+  "author": "agenthub-community",
+  "description": "Generate unit + integration tests from source — coverage-aware, framework-adaptive.",
+  "readme": "测试生成热门技能。根据源码自动产出单测/集成测试，识别现有测试框架并补齐覆盖率。",
+  "icon": "beaker",
+  "tags": ["skill", "test", "hot"],
+  "versions": [
+    {
+      "version": "latest",
+      "install": {
+        "method": "git-clone",
+        "repo": "https://github.com/agenthub-community/agenthub",
+        "path": "skills/test-gen"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-brave-search",
+  "name": "Brave Search MCP",
+  "kind": "mcp",
+  "author": "modelcontextprotocol",
+  "description": "Web search via Brave API — let agents research, fact-check and browse current info.",
+  "readme": "研究型 agent 必备。接 Brave Search API，支持网页搜索与摘要，需 BRAVE_API_KEY。",
+  "icon": "search",
+  "homepage": "https://github.com/modelcontextprotocol/servers",
+  "tags": ["mcp", "search", "research", "hot"],
+  "license": "MIT",
+  "versions": [
+    {
+      "version": "latest",
+      "install": {
+        "method": "mcp-config",
+        "mcp": {
+          "name": "brave-search",
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+          "env": { "BRAVE_API_KEY": "${BRAVE_API_KEY}" },
+          "disabled": false
+        }
+      }
+    }
+  ]
+}
