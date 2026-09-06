@@ -1,0 +1,9 @@
+{
+  "id": "pr-assistant",
+  "name": "PR Assistant",
+  "author": "agenthub-community",
+  "description": "PR 助手 — Codex 引擎 + GitHub MCP，自动审 PR、写总结与检查清单。",
+  "tags": ["hot", "pr", "codex", "github"],
+  "icon": "git-pull-request",
+  "homepage": "https://github.com/agenthub-community/agenthub"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "doc-generator",
+  "name": "Doc Generator",
+  "author": "agenthub-community",
+  "description": "文档生成器 — 从代码到 README/API/CHANGELOG，双语模板，团队文档一键齐。",
+  "tags": ["hot", "docs", "claude", "writer"],
+  "icon": "book-open",
+  "homepage": "https://github.com/agenthub-community/agenthub"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "skill-doc-writer",
+  "name": "Doc Writer Skill",
+  "kind": "skill",
+  "author": "agenthub-community",
+  "description": "Generate README, API docs and changelogs from code — consistent style, bilingual.",
+  "readme": "热门写作技能。根据代码自动生成 README / API 文档 / CHANGELOG，支持中英双语与多种模板。",
+  "icon": "book-open",
+  "tags": ["skill", "docs", "hot"],
+  "versions": [
+    {
+      "version": "latest",
+      "install": {
+        "method": "git-clone",
+        "repo": "https://github.com/agenthub-community/agenthub",
+        "path": "skills/doc-writer"
+      }
+    }
+  ]
+}

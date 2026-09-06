@@ -1,0 +1,9 @@
+{
+  "id": "research-assistant",
+  "name": "Research Assistant",
+  "author": "agenthub-community",
+  "description": "深度研究助手 — Brave Search + Memory 联动，自动搜集、摘要与溯源，适合调研与竞品分析。",
+  "tags": ["hot", "research", "claude", "brave-search", "memory"],
+  "icon": "search",
+  "homepage": "https://github.com/agenthub-community/agenthub"
+}

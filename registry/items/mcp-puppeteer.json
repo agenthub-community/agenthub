@@ -1,0 +1,27 @@
+{
+  "id": "mcp-puppeteer",
+  "name": "Puppeteer MCP",
+  "kind": "mcp",
+  "author": "modelcontextprotocol",
+  "description": "Browser automation via Puppeteer — screenshots, clicks, navigation for web tasks.",
+  "readme": "浏览器自动化热门 MCP。agent 可操控 Chromium：截图、填表单、爬页面，适合 E2E 与数据抓取。",
+  "icon": "globe",
+  "homepage": "https://github.com/modelcontextprotocol/servers",
+  "tags": ["mcp", "browser", "automation", "hot"],
+  "license": "MIT",
+  "versions": [
+    {
+      "version": "latest",
+      "install": {
+        "method": "mcp-config",
+        "mcp": {
+          "name": "puppeteer",
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-puppeteer"],
+          "env": {},
+          "disabled": false
+        }
+      }
+    }
+  ]
+}

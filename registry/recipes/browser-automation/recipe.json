@@ -1,0 +1,9 @@
+{
+  "id": "browser-automation",
+  "name": "Browser Automation",
+  "author": "agenthub-community",
+  "description": "浏览器自动化 — Puppeteer 驱动截图、填表与 E2E，最热门的 RPA 整合包。",
+  "tags": ["hot", "browser", "puppeteer", "automation", "opencode"],
+  "icon": "globe",
+  "homepage": "https://github.com/agenthub-community/agenthub"
+}

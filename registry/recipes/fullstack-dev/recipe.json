@@ -1,0 +1,9 @@
+{
+  "id": "fullstack-dev",
+  "name": "Fullstack Dev",
+  "author": "agenthub-community",
+  "description": "全栈开发整合包 — GitHub + Filesystem + PR 技能，开箱即做需求到 PR。",
+  "tags": ["hot", "fullstack", "claude", "github", "popular"],
+  "icon": "code",
+  "homepage": "https://github.com/agenthub-community/agenthub"
+}
